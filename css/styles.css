@@ -62,20 +62,33 @@
 }
 /* anh xoay */
 
-.container {
+.container1 {
   position: relative;
   width: 350px;
   margin-top: -150px;
   margin-bottom: 250px;
+  margin-left: 400px;
   perspective: 1000px;
   padding-top: 220px;
+}
+
+/* @media (min-width: 980px) {
+  .container1 {
+    margin-left: 374px;
+  }
+} */
+
+@media (max-width: 500px) {
+  .container1 {
+    margin-left: 40px;
+  }
 }
 .rotator {
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
-  width: 18%;
+  width: 50%;
   height: 150px;
   transform-style: preserve-3d;
   animation: roter 17s linear infinite;
