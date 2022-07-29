@@ -7006,7 +7006,7 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
-@media print {
+/* @media print {
   .d-print-none {
     display: none !important;
   }
@@ -7042,7 +7042,40 @@ button.bg-dark:focus {
   .d-print-inline-flex {
     display: inline-flex !important;
   }
+} */
+
+/* in CV */
+
+#print-cv {
+  display: none;
 }
+
+/* @media print {
+  body *:not(#print-cv):not(#print-cv *) {
+    visibility: hidden;
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+  @page {
+    size: A4;
+    margin: 0.5cm;
+  }
+
+  #print-cv {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+} */
+
 .embed-responsive {
   position: relative;
   display: block;
